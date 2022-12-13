@@ -1,0 +1,15 @@
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  background-color: $color-light !important;
+  border-bottom: 2px solid $color-primary;
+}
+
+.navbar-nav {
+  a {
+    color: $color-primary;
+  }
+}
