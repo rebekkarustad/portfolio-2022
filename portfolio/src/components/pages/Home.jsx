@@ -1,9 +1,9 @@
-import TopNav from "../layout/Nav";
+import Portfolio from "./Portfolio";
 
 export default function Home() {
   return (
     <div>
-      <h1>Projects</h1>
+      <Portfolio />
     </div>
   );
 }

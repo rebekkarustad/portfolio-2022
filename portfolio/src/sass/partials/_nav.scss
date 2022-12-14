@@ -9,7 +9,20 @@
 }
 
 .navbar-nav {
+  font-size: 1.1rem;
   a {
     color: $color-primary;
   }
+  @media (min-width: 992px) {
+    gap: 20px;
+  }
+}
+
+.navbar-toggler {
+  border: 1px solid $color-primary;
+}
+
+.bi-list {
+  color: $color-primary;
+  font-size: 2rem;
 }

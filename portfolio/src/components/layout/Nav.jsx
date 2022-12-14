@@ -10,7 +10,9 @@ export default function TopNav() {
         <Navbar.Brand href="/">
           <img src={LogoPink} alt="Logo" className="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <i className="bi bi-list"></i>
+        </Navbar.Toggle>
         <Navbar.Collapse
           id="responsive-navbar-nav"
           className="justify-content-end"

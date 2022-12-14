@@ -1,0 +1,23 @@
+.about__container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 800px;
+  column-gap: 20px;
+  margin-top: 20px;
+
+  img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+  }
+  @media (min-width: 992px) {
+    grid-template-columns: 2fr 1fr;
+    img {
+      grid-column: 2 / 3;
+      grid-row: 1 / 5;
+    }
+  }
+}
